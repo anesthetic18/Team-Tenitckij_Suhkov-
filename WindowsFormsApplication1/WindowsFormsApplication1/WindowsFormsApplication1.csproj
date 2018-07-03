@@ -45,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CalculateTwoArguments.cs" />
+    <Compile Include="CalculeteTwoFactory.cs" />
+    <Compile Include="ClassAmount.cs" />
+    <Compile Include="ClassDivision.cs" />
+    <Compile Include="ClassMultiplication.cs" />
+    <Compile Include="ClassSubtraction.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -14,7 +14,7 @@ namespace WindowsFormsApplication1
 {
     public partial class Form1 : Form
     {
-        public static double Amount(double a, double b)
+        /*public static double Amount(double a, double b)
         {
             return a + b;
         }
@@ -30,6 +30,7 @@ namespace WindowsFormsApplication1
         {
             return a / b;
         }
+        */
         public Form1()
         {
             InitializeComponent();
@@ -82,26 +83,30 @@ namespace WindowsFormsApplication1
             string secondValueText = textBox2.Text;
             double firstValue = Convert.ToDouble(firstValueText);
             double secondValue = Convert.ToDouble(secondValueText);
-            double result;
-       
-   
-            switch (((Button)sender).Name)
-            {
-                case "buttonAmount":
-                    result = Amount(firstValue, secondValue);
-                    break;
-                case "buttonDifference":
-                    result = Subtraction(firstValue, secondValue);
-                    break;
-                case "buttonMultiply":
-                    result = Multiplication(firstValue, secondValue);
-                    break;
-                case "buttonDivision":
-                    result = Division(firstValue, secondValue);
-                    break;
-                default:
-                    throw new Exception("Неизвестная операция");
-            }
+           // double result;
+
+            ICalculateTwoArguments calculator = CalculeteTwoFactory.CreateCalculator(((Button)sender).Name);
+            double result = calculator.Calculate(firstValue, secondValue);
+
+
+
+            /* switch (((Button)sender).Name)
+             {
+                 case "buttonAmount":
+                     result = Amount(firstValue, secondValue);
+                     break;
+                 case "buttonDifference":
+                     result = Subtraction(firstValue, secondValue);
+                     break;
+                 case "buttonMultiply":
+                     result = Multiplication(firstValue, secondValue);
+                     break;
+                 case "buttonDivision":
+                     result = Division(firstValue, secondValue);
+                     break;
+                 default:
+                     throw new Exception("Неизвестная операция");
+             }*/
             textBox3.Text = result.ToString();
         }
     }
