@@ -37,7 +37,12 @@ namespace WindowsFormsApplication1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox3.Text = Convert.ToString(sum(Convert.ToDouble(textBox1.Text), Convert.ToDouble(textBox2.Text)));
+            string firstValueText = textBox1.Text;
+            string secondValueText = textBox2.Text;
+            double firstValue = Convert.ToDouble(firstValueText);
+            double secondValue = Convert.ToDouble(secondValueText);
+            double result = sum(firstValue, secondValue);
+            textBox3.Text = result.ToString();
         }
  
 
