@@ -35,7 +35,7 @@ namespace WindowsFormsApplication1
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+       /* private void button1_Click(object sender, EventArgs e)
         {
             string firstValueText = textBox1.Text;
             string secondValueText = textBox2.Text;
@@ -73,6 +73,35 @@ namespace WindowsFormsApplication1
             string secondValueText = textBox2.Text;
             double secondValue = Convert.ToDouble(secondValueText);
             double result = Division(firstValue, secondValue);
+            textBox3.Text = result.ToString();
+        }
+        */
+        private void Click(object sender, EventArgs e)
+        {
+            string firstValueText = textBox1.Text;
+            string secondValueText = textBox2.Text;
+            double firstValue = Convert.ToDouble(firstValueText);
+            double secondValue = Convert.ToDouble(secondValueText);
+            double result;
+       
+   
+            switch (((Button)sender).Name)
+            {
+                case "button1":
+                    result = Amount(firstValue, secondValue);
+                    break;
+                case "button2":
+                    result = Subtraction(firstValue, secondValue);
+                    break;
+                case "button3":
+                    result = Multiplication(firstValue, secondValue);
+                    break;
+                case "button4":
+                    result = Division(firstValue, secondValue);
+                    break;
+                default:
+                    throw new Exception("Неизвестная операция");
+            }
             textBox3.Text = result.ToString();
         }
     }
