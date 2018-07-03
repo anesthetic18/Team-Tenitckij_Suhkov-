@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="OneArgument\CalculateOneArgument.cs" />
     <Compile Include="OneArgument\CalculateOneFactory.cs" />
+    <Compile Include="OneArgument\TenExp.cs" />
     <Compile Include="TwoArgument\CalculateTwoArguments.cs" />
     <Compile Include="TwoArgument\CalculeteTwoFactory.cs" />
     <Compile Include="TwoArgument\Amount.cs" />
