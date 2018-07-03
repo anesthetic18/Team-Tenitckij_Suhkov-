@@ -14,19 +14,19 @@ namespace WindowsFormsApplication1
 {
     public partial class Form1 : Form
     {
-        public static double sum(double a, double b)
+        public static double Amount(double a, double b)
         {
             return a + b;
         }
-        public static double min(double a, double b)
+        public static double Subtraction(double a, double b)
         {
             return a - b;
         }
-        public static double mul(double a, double b)
+        public static double Multiplication(double a, double b)
         {
             return a * b;
         }
-        public static double del(double a, double b)
+        public static double Division(double a, double b)
         {
             return a / b;
         }
@@ -41,15 +41,19 @@ namespace WindowsFormsApplication1
             string secondValueText = textBox2.Text;
             double firstValue = Convert.ToDouble(firstValueText);
             double secondValue = Convert.ToDouble(secondValueText);
-            double result = sum(firstValue, secondValue);
+            double result = Amount(firstValue, secondValue);
             textBox3.Text = result.ToString();
         }
  
 
         private void button3_Click(object sender, EventArgs e)
         {
-            textBox3.Text = Convert.ToString(mul(Convert.ToDouble(textBox1.Text), Convert.ToDouble(textBox2.Text)));
-    
+            string firstValueText = textBox1.Text;
+            string secondValueText = textBox2.Text;
+            double firstValue = Convert.ToDouble(firstValueText);
+            double secondValue = Convert.ToDouble(secondValueText);
+            double result = Multiplication(firstValue, secondValue);
+            textBox3.Text = result.ToString();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -58,15 +62,18 @@ namespace WindowsFormsApplication1
             double firstValue = Convert.ToDouble(FirstValueText);
             string secondValueText = textBox2.Text;
             double secondValue = Convert.ToDouble(secondValueText);
-            double result = secondValue / firstValue;
+            double result = Subtraction(firstValue, secondValue);
             textBox3.Text = result.ToString();
-
-            textBox3.Text = Convert.ToString(min(Convert.ToDouble(textBox1.Text), Convert.ToDouble(textBox2.Text)));
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            textBox3.Text = Convert.ToString(del(Convert.ToDouble(textBox1.Text), Convert.ToDouble(textBox2.Text)));
+            string FirstValueText = textBox1.Text;
+            double firstValue = Convert.ToDouble(FirstValueText);
+            string secondValueText = textBox2.Text;
+            double secondValue = Convert.ToDouble(secondValueText);
+            double result = Division(firstValue, secondValue);
+            textBox3.Text = result.ToString();
         }
     }
 }
