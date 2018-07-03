@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace WindowsFormsApplication1
 {
@@ -13,17 +9,16 @@ namespace WindowsFormsApplication1
             switch (calculatorName)
             {
                 case "buttonAmount":
-                    return new ClassAmount();
+                    return new Amount();
                 case "buttonDifference":
-                    return new ClassSubtraction();
+                    return new Subtraction();
                 case "buttonMultiply":
-                    return new ClassMultiplication();
+                    return new Multiplication();
                 case "buttonDivision":
-                    return new ClassDivision();
+                    return new Division();
                 default:
                     throw new Exception("Неизвестная операция");
             }
-
         }
     }
 }

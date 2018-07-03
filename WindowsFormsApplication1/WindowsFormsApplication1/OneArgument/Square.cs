@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace WindowsFormsApplication1
+﻿namespace WindowsFormsApplication1
 {
-    public class Square: ICalculateOneArgument
+    public class Square : ICalculateOneArgument
     {
         public double Calculate(double argument)
         {

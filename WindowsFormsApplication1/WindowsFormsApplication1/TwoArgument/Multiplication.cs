@@ -1,10 +1,10 @@
 ﻿namespace WindowsFormsApplication1
 {
-    public class ClassAmount:ICalculateTwoArguments
+    public class Multiplication : ICalculateTwoArguments
     {
         public double Calculate(double firstArgument, double secondArgument)
         {
-            return firstArgument + secondArgument;
+            return firstArgument * secondArgument;
         }
     }
 }

@@ -49,10 +49,10 @@
     <Compile Include="OneArgument\CalculateOneFactory.cs" />
     <Compile Include="TwoArgument\CalculateTwoArguments.cs" />
     <Compile Include="TwoArgument\CalculeteTwoFactory.cs" />
-    <Compile Include="TwoArgument\ClassAmount.cs" />
-    <Compile Include="TwoArgument\ClassDivision.cs" />
-    <Compile Include="TwoArgument\ClassMultiplication.cs" />
-    <Compile Include="TwoArgument\ClassSubtraction.cs" />
+    <Compile Include="TwoArgument\Amount.cs" />
+    <Compile Include="TwoArgument\Division.cs" />
+    <Compile Include="TwoArgument\Multiplication.cs" />
+    <Compile Include="TwoArgument\Subtraction.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
