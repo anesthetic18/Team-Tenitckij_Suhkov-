@@ -87,16 +87,16 @@ namespace WindowsFormsApplication1
    
             switch (((Button)sender).Name)
             {
-                case "button1":
+                case "buttonAmount":
                     result = Amount(firstValue, secondValue);
                     break;
-                case "button2":
+                case "buttonDifference":
                     result = Subtraction(firstValue, secondValue);
                     break;
-                case "button3":
+                case "buttonMultiply":
                     result = Multiplication(firstValue, secondValue);
                     break;
-                case "button4":
+                case "buttonDivision":
                     result = Division(firstValue, secondValue);
                     break;
                 default:
