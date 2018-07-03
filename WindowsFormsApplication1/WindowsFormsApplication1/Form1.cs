@@ -18,6 +18,18 @@ namespace WindowsFormsApplication1
         {
             return a + b;
         }
+        public static double min(double a, double b)
+        {
+            return a - b;
+        }
+        public static double mul(double a, double b)
+        {
+            return a * b;
+        }
+        public static double del(double a, double b)
+        {
+            return a / b;
+        }
         public Form1()
         {
             InitializeComponent();
@@ -31,12 +43,18 @@ namespace WindowsFormsApplication1
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            textBox3.Text = Convert.ToString(mul(Convert.ToDouble(textBox1.Text), Convert.ToDouble(textBox2.Text)));
+    
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
+            textBox3.Text = Convert.ToString(min(Convert.ToDouble(textBox1.Text), Convert.ToDouble(textBox2.Text)));
+        }
 
+        private void button4_Click(object sender, EventArgs e)
+        {
+            textBox3.Text = Convert.ToString(del(Convert.ToDouble(textBox1.Text), Convert.ToDouble(textBox2.Text)));
         }
     }
 }
