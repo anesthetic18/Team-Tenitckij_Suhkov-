@@ -45,9 +45,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneArgument\Atan.cs" />
     <Compile Include="OneArgument\CalculateOneArgument.cs" />
     <Compile Include="OneArgument\CalculateOneFactory.cs" />
     <Compile Include="OneArgument\Cos.cs" />
+    <Compile Include="OneArgument\Cube.cs" />
+    <Compile Include="OneArgument\Fraction.cs" />
+    <Compile Include="OneArgument\Tan.cs" />
     <Compile Include="OneArgument\TenExp.cs" />
     <Compile Include="TwoArgument\CalculateTwoArguments.cs" />
     <Compile Include="TwoArgument\CalculeteTwoFactory.cs" />

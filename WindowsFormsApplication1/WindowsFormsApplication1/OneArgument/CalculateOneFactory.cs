@@ -16,10 +16,17 @@ namespace WindowsFormsApplication1
                     return new TenExp();
                 case "Cos":
                     return new Cos();
+                case "Cube":
+                    return new Cube();
+                case "Tan":
+                    return new Tan();
+                case "Atan":
+                    return new Atan();
+                case "Fraction":
+                    return new Fraction();
                 default:
                     throw new Exception("Неизвестная операция");
             }
-
         }
     }
 }
