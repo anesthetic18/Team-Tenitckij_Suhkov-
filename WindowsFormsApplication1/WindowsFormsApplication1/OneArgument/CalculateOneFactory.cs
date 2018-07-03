@@ -14,6 +14,8 @@ namespace WindowsFormsApplication1
                     return new Sin();
                 case "TenExp":
                     return new TenExp();
+                case "Cos":
+                    return new Cos();
                 default:
                     throw new Exception("Неизвестная операция");
             }
