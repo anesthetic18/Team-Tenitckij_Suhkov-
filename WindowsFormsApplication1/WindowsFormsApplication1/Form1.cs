@@ -49,6 +49,13 @@ namespace WindowsFormsApplication1
 
         private void button2_Click(object sender, EventArgs e)
         {
+            string FirstValueText = textBox1.Text;
+            double firstValue = Convert.ToDouble(FirstValueText);
+            string secondValueText = textBox2.Text;
+            double secondValue = Convert.ToDouble(secondValueText);
+            double result = secondValue / firstValue;
+            textBox3.Text = result.ToString();
+
             textBox3.Text = Convert.ToString(min(Convert.ToDouble(textBox1.Text), Convert.ToDouble(textBox2.Text)));
         }
 
