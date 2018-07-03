@@ -12,7 +12,7 @@ namespace WindowsFormsApplication1
         {
             switch (calculatorName)
             {
-                case "buttomAmount":
+                case "buttonAmount":
                     return new ClassAmount();
                 case "buttonDifference":
                     return new ClassSubtraction();
