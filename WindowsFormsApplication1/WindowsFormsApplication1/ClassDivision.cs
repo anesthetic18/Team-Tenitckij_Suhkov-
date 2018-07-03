@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApplication1
 {
-    class ClassDivision : ICalculateTwoArguments
+   public class ClassDivision : ICalculateTwoArguments
     {
         public double Calculate(double firstArgument, double secondArgument)
         {

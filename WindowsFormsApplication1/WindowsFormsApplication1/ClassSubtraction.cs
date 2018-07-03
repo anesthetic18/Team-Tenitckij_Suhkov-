@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApplication1
 {
-    class ClassSubtraction : ICalculateTwoArguments
+    public class ClassSubtraction : ICalculateTwoArguments
     {
         public double Calculate(double firstArgument, double secondArgument)
         {
