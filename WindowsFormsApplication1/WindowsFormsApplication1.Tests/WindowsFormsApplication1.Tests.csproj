@@ -66,6 +66,7 @@
     <Compile Include="TwoArgument\DoublAmountTests.cs" />
     <Compile Include="TwoArgument\DoubleDifferenceTests.cs" />
     <Compile Include="TwoArgument\DoubleDifSquare.cs" />
+    <Compile Include="TwoArgument\DoubleMultiplyTests.cs" />
     <Compile Include="TwoArgument\MultiplyTest.cs" />
     <Compile Include="TwoArgument\SquareOfAmountTests.cs" />
   </ItemGroup>
