@@ -47,8 +47,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="OneArgument\ArccosTests.cs" />
-    <Compile Include="OneArgument\Arcsin.cs" />
+    <Compile Include="OneArgument\ArcsinTests.cs" />
     <Compile Include="OneArgument\CtanTest.cs" />
+    <Compile Include="OneArgument\logTests.cs" />
     <Compile Include="OneArgument\TenExpTests.cs" />
     <Compile Include="TwoArgument\AmountTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
