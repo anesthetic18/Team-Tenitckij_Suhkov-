@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneArgument\Arccos.cs" />
     <Compile Include="OneArgument\Arcsin.cs" />
     <Compile Include="OneArgument\Atan.cs" />
     <Compile Include="OneArgument\CalculateOneArgument.cs" />

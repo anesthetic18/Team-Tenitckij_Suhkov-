@@ -28,6 +28,8 @@ namespace WindowsFormsApplication1
                     return new Ctan();
                 case "Arcsin":
                     return new Arcsin();
+                case "Arccos":
+                    return new Arccos();
                 default:
                     throw new Exception("Неизвестная операция");
             }

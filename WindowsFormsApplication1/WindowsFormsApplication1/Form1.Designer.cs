@@ -47,7 +47,7 @@
             this.button8 = new System.Windows.Forms.Button();
             this.Ctan = new System.Windows.Forms.Button();
             this.Arcsin = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
+            this.Arccos = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
@@ -250,14 +250,15 @@
             this.Arcsin.UseVisualStyleBackColor = true;
             this.Arcsin.Click += new System.EventHandler(this.ClickUnary);
             // 
-            // button11
+            // Arccos
             // 
-            this.button11.Location = new System.Drawing.Point(614, 189);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(98, 37);
-            this.button11.TabIndex = 19;
-            this.button11.Text = "button11";
-            this.button11.UseVisualStyleBackColor = true;
+            this.Arccos.Location = new System.Drawing.Point(614, 189);
+            this.Arccos.Name = "Arccos";
+            this.Arccos.Size = new System.Drawing.Size(98, 37);
+            this.Arccos.TabIndex = 19;
+            this.Arccos.Text = "Arccos";
+            this.Arccos.UseVisualStyleBackColor = true;
+            this.Arccos.Click += new System.EventHandler(this.ClickUnary);
             // 
             // button12
             // 
@@ -375,7 +376,7 @@
             this.Controls.Add(this.button14);
             this.Controls.Add(this.button13);
             this.Controls.Add(this.button12);
-            this.Controls.Add(this.button11);
+            this.Controls.Add(this.Arccos);
             this.Controls.Add(this.Arcsin);
             this.Controls.Add(this.Ctan);
             this.Controls.Add(this.button8);
@@ -424,7 +425,7 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button Ctan;
         private System.Windows.Forms.Button Arcsin;
-        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button Arccos;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button button14;
