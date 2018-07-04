@@ -1,8 +1,7 @@
 ﻿using WindowsFormsApplication1.TwoArgument;
 using NUnit.Framework;
 
-
-namespace WindowsFormsApplication1.Tests.SimpleTests
+namespace WindowsFormsApplication1.Tests.TwoArgument
 {
     [TestFixture]
     public class DivisionTests

@@ -2,7 +2,7 @@
 
 namespace WindowsFormsApplication1.OneArgument
 {
-    class CalculateOneFactory
+    public class CalculateOneFactory
     {
         public static ICalculateOneArgument CreateCalculator(string calculatorName)
         {

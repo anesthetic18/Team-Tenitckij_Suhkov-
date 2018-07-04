@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApplication1.OneArgument
 {
-    interface ICalculateOneArgument
+    public interface ICalculateOneArgument
     {
         double Calculate(double argument);
     }

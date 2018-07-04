@@ -46,11 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SimpleTests\AmountTest.cs" />
+    <Compile Include="TwoArgument\AmountTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SimpleTests\DifferenceTest.cs" />
-    <Compile Include="SimpleTests\DivisionTest.cs" />
-    <Compile Include="SimpleTests\MultiplyTest.cs" />
+    <Compile Include="OneArgument\CosTest.cs" />
+    <Compile Include="TwoArgument\DifferenceTest.cs" />
+    <Compile Include="TwoArgument\DivisionTest.cs" />
+    <Compile Include="TwoArgument\MultiplyTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WindowsFormsApplication1\WindowsFormsApplication1.csproj">
