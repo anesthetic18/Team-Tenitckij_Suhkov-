@@ -71,6 +71,7 @@
     <Compile Include="TwoArgument\DoubleDivision.cs" />
     <Compile Include="TwoArgument\DoubleMultiply.cs" />
     <Compile Include="TwoArgument\Multiplication.cs" />
+    <Compile Include="TwoArgument\SquareOfAmount.cs" />
     <Compile Include="TwoArgument\Subtraction.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
