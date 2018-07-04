@@ -6,7 +6,11 @@ namespace WindowsFormsApplication1.OneArgument
         {
             public double Calculate(double argument)
             {
-                return Math.Asin(argument);
+                if (argument < -1 || argument > 1)
+                {
+                    throw new Exception("does't exsist");
+                }
+            return Math.Asin(argument);
             }
         }
     
