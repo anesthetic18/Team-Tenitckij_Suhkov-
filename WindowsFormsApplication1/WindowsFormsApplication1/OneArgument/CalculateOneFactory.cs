@@ -30,6 +30,8 @@ namespace WindowsFormsApplication1
                     return new Arcsin();
                 case "Arccos":
                     return new Arccos();
+                case "Log":
+                    return new Log();
                 default:
                     throw new Exception("Неизвестная операция");
             }

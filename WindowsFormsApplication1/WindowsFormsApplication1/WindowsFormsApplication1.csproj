@@ -54,6 +54,7 @@
     <Compile Include="OneArgument\Ctan.cs" />
     <Compile Include="OneArgument\Cube.cs" />
     <Compile Include="OneArgument\Fraction.cs" />
+    <Compile Include="OneArgument\Log.cs" />
     <Compile Include="OneArgument\Tan.cs" />
     <Compile Include="OneArgument\TenExp.cs" />
     <Compile Include="TwoArgument\CalculateTwoArguments.cs" />

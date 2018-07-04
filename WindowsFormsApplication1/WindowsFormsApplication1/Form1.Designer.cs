@@ -48,7 +48,7 @@
             this.Ctan = new System.Windows.Forms.Button();
             this.Arcsin = new System.Windows.Forms.Button();
             this.Arccos = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
+            this.Log = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
@@ -260,14 +260,15 @@
             this.Arccos.UseVisualStyleBackColor = true;
             this.Arccos.Click += new System.EventHandler(this.ClickUnary);
             // 
-            // button12
+            // Log
             // 
-            this.button12.Location = new System.Drawing.Point(614, 232);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(98, 37);
-            this.button12.TabIndex = 20;
-            this.button12.Text = "button12";
-            this.button12.UseVisualStyleBackColor = true;
+            this.Log.Location = new System.Drawing.Point(614, 232);
+            this.Log.Name = "Log";
+            this.Log.Size = new System.Drawing.Size(98, 37);
+            this.Log.TabIndex = 20;
+            this.Log.Text = "Lg(x)";
+            this.Log.UseVisualStyleBackColor = true;
+            this.Log.Click += new System.EventHandler(this.ClickUnary);
             // 
             // button13
             // 
@@ -375,7 +376,7 @@
             this.Controls.Add(this.button15);
             this.Controls.Add(this.button14);
             this.Controls.Add(this.button13);
-            this.Controls.Add(this.button12);
+            this.Controls.Add(this.Log);
             this.Controls.Add(this.Arccos);
             this.Controls.Add(this.Arcsin);
             this.Controls.Add(this.Ctan);
@@ -426,7 +427,7 @@
         private System.Windows.Forms.Button Ctan;
         private System.Windows.Forms.Button Arcsin;
         private System.Windows.Forms.Button Arccos;
-        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button Log;
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Button button15;
