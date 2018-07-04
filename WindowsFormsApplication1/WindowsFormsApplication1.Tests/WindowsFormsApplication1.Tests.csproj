@@ -65,6 +65,7 @@
     <Compile Include="TwoArgument\DivisionTest.cs" />
     <Compile Include="TwoArgument\DoubleDifSquare.cs" />
     <Compile Include="TwoArgument\MultiplyTest.cs" />
+    <Compile Include="TwoArgument\SquareOfAmountTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WindowsFormsApplication1\WindowsFormsApplication1.csproj">
