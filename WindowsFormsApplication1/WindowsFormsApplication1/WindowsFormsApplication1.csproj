@@ -63,6 +63,7 @@
     <Compile Include="TwoArgument\Division.cs" />
     <Compile Include="TwoArgument\DoublAmount.cs" />
     <Compile Include="TwoArgument\DoubleDifference.cs" />
+    <Compile Include="TwoArgument\DoubleMultiply.cs" />
     <Compile Include="TwoArgument\Multiplication.cs" />
     <Compile Include="TwoArgument\Subtraction.cs" />
     <Compile Include="Form1.cs">
