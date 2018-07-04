@@ -53,7 +53,7 @@
             this.button14 = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
+            this.doubleDifference = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
@@ -307,14 +307,15 @@
             this.button16.Text = "button16";
             this.button16.UseVisualStyleBackColor = true;
             // 
-            // button17
+            // doubleDifference
             // 
-            this.button17.Location = new System.Drawing.Point(862, 103);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(98, 37);
-            this.button17.TabIndex = 25;
-            this.button17.Text = "button17";
-            this.button17.UseVisualStyleBackColor = true;
+            this.doubleDifference.Location = new System.Drawing.Point(862, 103);
+            this.doubleDifference.Name = "doubleDifference";
+            this.doubleDifference.Size = new System.Drawing.Size(98, 37);
+            this.doubleDifference.TabIndex = 25;
+            this.doubleDifference.Text = "2(x-y)";
+            this.doubleDifference.UseVisualStyleBackColor = true;
+            this.doubleDifference.Click += new System.EventHandler(this.Click);
             // 
             // button18
             // 
@@ -372,7 +373,7 @@
             this.Controls.Add(this.button20);
             this.Controls.Add(this.button19);
             this.Controls.Add(this.button18);
-            this.Controls.Add(this.button17);
+            this.Controls.Add(this.doubleDifference);
             this.Controls.Add(this.button16);
             this.Controls.Add(this.button15);
             this.Controls.Add(this.button14);
@@ -433,7 +434,7 @@
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Button button15;
         private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.Button doubleDifference;
         private System.Windows.Forms.Button button18;
         private System.Windows.Forms.Button button19;
         private System.Windows.Forms.Button button20;

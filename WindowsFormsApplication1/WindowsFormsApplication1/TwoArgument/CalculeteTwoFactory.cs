@@ -18,6 +18,8 @@ namespace WindowsFormsApplication1
                     return new Division();
                 case "DoublAmount":
                     return new DoublAmount();
+                case "doubleDifference":
+                    return new DoubleDifference();
                 default:
                     throw new Exception("Неизвестная операция");
             }
