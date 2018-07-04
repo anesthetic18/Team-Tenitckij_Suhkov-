@@ -56,7 +56,7 @@
             this.doubleDifference = new System.Windows.Forms.Button();
             this.doubleMultiply = new System.Windows.Forms.Button();
             this.doubleDivision = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
+            this.amountSquare = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -337,14 +337,15 @@
             this.doubleDivision.UseVisualStyleBackColor = true;
             this.doubleDivision.Click += new System.EventHandler(this.Click);
             // 
-            // button20
+            // amountSquare
             // 
-            this.button20.Location = new System.Drawing.Point(862, 232);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(98, 37);
-            this.button20.TabIndex = 28;
-            this.button20.Text = "button20";
-            this.button20.UseVisualStyleBackColor = true;
+            this.amountSquare.Location = new System.Drawing.Point(862, 232);
+            this.amountSquare.Name = "amountSquare";
+            this.amountSquare.Size = new System.Drawing.Size(98, 37);
+            this.amountSquare.TabIndex = 28;
+            this.amountSquare.Text = "x^2 + y^2";
+            this.amountSquare.UseVisualStyleBackColor = true;
+            this.amountSquare.Click += new System.EventHandler(this.Click);
             // 
             // label1
             // 
@@ -372,7 +373,7 @@
             this.ClientSize = new System.Drawing.Size(998, 369);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button20);
+            this.Controls.Add(this.amountSquare);
             this.Controls.Add(this.doubleDivision);
             this.Controls.Add(this.doubleMultiply);
             this.Controls.Add(this.doubleDifference);
@@ -439,7 +440,7 @@
         private System.Windows.Forms.Button doubleDifference;
         private System.Windows.Forms.Button doubleMultiply;
         private System.Windows.Forms.Button doubleDivision;
-        private System.Windows.Forms.Button button20;
+        private System.Windows.Forms.Button amountSquare;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
     }
