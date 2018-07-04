@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FabricTests\OneArgumentFabricTests.cs" />
+    <Compile Include="FabricTests\TwoArgumentFabricTests.cs" />
     <Compile Include="OneArgument\ArccosTests.cs" />
     <Compile Include="OneArgument\ArcsinTests.cs" />
     <Compile Include="OneArgument\AtanTests.cs" />
