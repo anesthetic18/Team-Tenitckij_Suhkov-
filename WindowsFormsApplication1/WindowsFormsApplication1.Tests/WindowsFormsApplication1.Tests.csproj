@@ -46,8 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="SimpleTests\AmountTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimpleTests\DifferenceTest.cs" />
+    <Compile Include="SimpleTests\DivisionTest.cs" />
+    <Compile Include="SimpleTests\MultiplyTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WindowsFormsApplication1\WindowsFormsApplication1.csproj">
