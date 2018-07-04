@@ -44,7 +44,7 @@
             this.Fraction = new System.Windows.Forms.Button();
             this.TenExp = new System.Windows.Forms.Button();
             this.XPowerY = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.DoublAmount = new System.Windows.Forms.Button();
             this.Ctan = new System.Windows.Forms.Button();
             this.Arcsin = new System.Windows.Forms.Button();
             this.Arccos = new System.Windows.Forms.Button();
@@ -221,14 +221,15 @@
             this.XPowerY.UseVisualStyleBackColor = true;
             this.XPowerY.Click += new System.EventHandler(this.Click);
             // 
-            // button8
+            // DoublAmount
             // 
-            this.button8.Location = new System.Drawing.Point(862, 60);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(98, 37);
-            this.button8.TabIndex = 16;
-            this.button8.Text = "button8";
-            this.button8.UseVisualStyleBackColor = true;
+            this.DoublAmount.Location = new System.Drawing.Point(862, 60);
+            this.DoublAmount.Name = "DoublAmount";
+            this.DoublAmount.Size = new System.Drawing.Size(98, 37);
+            this.DoublAmount.TabIndex = 16;
+            this.DoublAmount.Text = "2(x+y)";
+            this.DoublAmount.UseVisualStyleBackColor = true;
+            this.DoublAmount.Click += new System.EventHandler(this.Click);
             // 
             // Ctan
             // 
@@ -380,7 +381,7 @@
             this.Controls.Add(this.Arccos);
             this.Controls.Add(this.Arcsin);
             this.Controls.Add(this.Ctan);
-            this.Controls.Add(this.button8);
+            this.Controls.Add(this.DoublAmount);
             this.Controls.Add(this.XPowerY);
             this.Controls.Add(this.TenExp);
             this.Controls.Add(this.Fraction);
@@ -423,7 +424,7 @@
         private System.Windows.Forms.Button Fraction;
         private System.Windows.Forms.Button TenExp;
         private System.Windows.Forms.Button XPowerY;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button DoublAmount;
         private System.Windows.Forms.Button Ctan;
         private System.Windows.Forms.Button Arcsin;
         private System.Windows.Forms.Button Arccos;

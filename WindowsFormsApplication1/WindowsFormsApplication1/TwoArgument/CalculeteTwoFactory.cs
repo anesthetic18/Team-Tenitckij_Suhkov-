@@ -16,6 +16,8 @@ namespace WindowsFormsApplication1
                     return new Multiplication();
                 case "buttonDivision":
                     return new Division();
+                case "DoublAmount":
+                    return new DoublAmount();
                 default:
                     throw new Exception("Неизвестная операция");
             }
