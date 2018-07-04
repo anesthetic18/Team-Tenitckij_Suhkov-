@@ -51,7 +51,7 @@
             this.Log = new System.Windows.Forms.Button();
             this.difDivision = new System.Windows.Forms.Button();
             this.amountCube = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
+            this.difCube = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
             this.doubleDifference = new System.Windows.Forms.Button();
             this.doubleMultiply = new System.Windows.Forms.Button();
@@ -296,15 +296,16 @@
             this.amountCube.UseVisualStyleBackColor = true;
             this.amountCube.Click += new System.EventHandler(this.Click);
             // 
-            // button15
+            // difCube
             // 
-            this.button15.Location = new System.Drawing.Point(494, 123);
-            this.button15.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(65, 24);
-            this.button15.TabIndex = 23;
-            this.button15.Text = "button15";
-            this.button15.UseVisualStyleBackColor = true;
+            this.difCube.Location = new System.Drawing.Point(494, 123);
+            this.difCube.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.difCube.Name = "difCube";
+            this.difCube.Size = new System.Drawing.Size(65, 24);
+            this.difCube.TabIndex = 23;
+            this.difCube.Text = "x^3-y^3";
+            this.difCube.UseVisualStyleBackColor = true;
+            this.difCube.Click += new System.EventHandler(this.Click);
             // 
             // button16
             // 
@@ -393,7 +394,7 @@
             this.Controls.Add(this.doubleMultiply);
             this.Controls.Add(this.doubleDifference);
             this.Controls.Add(this.button16);
-            this.Controls.Add(this.button15);
+            this.Controls.Add(this.difCube);
             this.Controls.Add(this.amountCube);
             this.Controls.Add(this.difDivision);
             this.Controls.Add(this.Log);
@@ -449,7 +450,7 @@
         private System.Windows.Forms.Button Log;
         private System.Windows.Forms.Button difDivision;
         private System.Windows.Forms.Button amountCube;
-        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button difCube;
         private System.Windows.Forms.Button button16;
         private System.Windows.Forms.Button doubleDifference;
         private System.Windows.Forms.Button doubleMultiply;

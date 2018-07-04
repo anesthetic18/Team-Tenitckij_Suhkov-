@@ -32,6 +32,8 @@ namespace WindowsFormsApplication1.TwoArgument
                     return new DifDivision();
                 case "amountCube":
                     return new AmountCube();
+                case "difCube":
+                    return new DifCube();
                 default:
                     throw new Exception("Неизвестная операция");
             }

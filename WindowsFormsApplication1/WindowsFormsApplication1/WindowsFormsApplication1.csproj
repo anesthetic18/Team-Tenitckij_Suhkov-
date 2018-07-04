@@ -62,6 +62,7 @@
     <Compile Include="TwoArgument\CalculateTwoArguments.cs" />
     <Compile Include="TwoArgument\CalculeteTwoFactory.cs" />
     <Compile Include="TwoArgument\Amount.cs" />
+    <Compile Include="TwoArgument\DifCube.cs" />
     <Compile Include="TwoArgument\DifDivivsion.cs" />
     <Compile Include="TwoArgument\Division.cs" />
     <Compile Include="TwoArgument\DoublAmount.cs" />
