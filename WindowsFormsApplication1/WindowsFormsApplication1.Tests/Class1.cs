@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using WindowsFormsApplication1.TwoArgument;
 namespace WindowsFormsApplication1.Tests
 {
@@ -16,6 +11,13 @@ namespace WindowsFormsApplication1.Tests
             ICalculateTwoArguments calculator = CalculeteTwoFactory.CreateCalculator("buttonAmount");
             double result = calculator.Calculate(5, 5);
             Assert.AreEqual(10, result);
+        }
+        [Test]
+        public void SubstractionTest()
+        {
+            ICalculateTwoArguments calculator = CalculeteTwoFactory.CreateCalculator("buttonDifference");
+            double result = calculator.Calculate(6, 5);
+            Assert.AreEqual(1, result);
         }
     }
 }
