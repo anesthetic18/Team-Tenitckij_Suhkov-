@@ -1,0 +1,19 @@
+﻿using WindowsFormsApplication1.OneArgument;
+using NUnit.Framework;
+
+namespace WindowsFormsApplication1.Tests.OneArgument
+{
+    [TestFixture]
+    public class ArccosTests
+    {
+        [TestCase(0, 1.57)]
+        [TestCase(1, 0)]
+        [TestCase(-1, 3.14)]
+        public void FirstTest(double value, double expected)
+        {
+            ICalculateOneArgument calculator = CalculateOneFactory.CreateCalculator("Arccos");
+            double result = calculator.Calculate(value);
+            Assert.AreEqual(expected, result, 0.01);
+        }
+    }
+}
