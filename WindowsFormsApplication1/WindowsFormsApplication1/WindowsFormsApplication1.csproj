@@ -61,9 +61,11 @@
     <Compile Include="TwoArgument\CalculateTwoArguments.cs" />
     <Compile Include="TwoArgument\CalculeteTwoFactory.cs" />
     <Compile Include="TwoArgument\Amount.cs" />
+    <Compile Include="TwoArgument\DifDivivsion.cs" />
     <Compile Include="TwoArgument\Division.cs" />
     <Compile Include="TwoArgument\DoublAmount.cs" />
     <Compile Include="TwoArgument\DoubleDifference.cs" />
+    <Compile Include="TwoArgument\DoubleDifSquare.cs" />
     <Compile Include="TwoArgument\DoubleDivision.cs" />
     <Compile Include="TwoArgument\DoubleMultiply.cs" />
     <Compile Include="TwoArgument\Multiplication.cs" />
