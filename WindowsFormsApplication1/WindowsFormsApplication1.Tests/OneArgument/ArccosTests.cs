@@ -1,4 +1,5 @@
-﻿using WindowsFormsApplication1.OneArgument;
+﻿using System;
+using WindowsFormsApplication1.OneArgument;
 using NUnit.Framework;
 
 namespace WindowsFormsApplication1.Tests.OneArgument
@@ -14,6 +15,12 @@ namespace WindowsFormsApplication1.Tests.OneArgument
             ICalculateOneArgument calculator = CalculateOneFactory.CreateCalculator("Arccos");
             double result = calculator.Calculate(value);
             Assert.AreEqual(expected, result, 0.01);
+        }
+        [Test]
+        public void ArccosExceptionTest()
+        {
+            ICalculateOneArgument calculator = CalculateOneFactory.CreateCalculator("Arccos");
+            Assert.Throws<Exception>(() => calculator.Calculate(2));
         }
     }
 }
