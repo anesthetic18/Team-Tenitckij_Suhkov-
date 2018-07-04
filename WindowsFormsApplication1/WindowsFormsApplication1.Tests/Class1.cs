@@ -19,5 +19,19 @@ namespace WindowsFormsApplication1.Tests
             double result = calculator.Calculate(6, 5);
             Assert.AreEqual(1, result);
         }
+        [Test]
+        public void MultiplyTest()
+        {
+            ICalculateTwoArguments calculator = CalculeteTwoFactory.CreateCalculator("buttonMultiply");
+            double result = calculator.Calculate(5, 5);
+            Assert.AreEqual(25, result);
+        }
+        [Test]
+        public void DivisionTest()
+        {
+            ICalculateTwoArguments calculator = CalculeteTwoFactory.CreateCalculator("buttonDivision");
+            double result = calculator.Calculate(5, 5);
+            Assert.AreEqual(1, result);
+        }
     }
 }
