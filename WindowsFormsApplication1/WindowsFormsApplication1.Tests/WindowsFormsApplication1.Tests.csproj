@@ -56,6 +56,7 @@
     <Compile Include="OneArgument\TanTests.cs" />
     <Compile Include="OneArgument\TenExpTests.cs" />
     <Compile Include="TwoArgument\AmountCubeTests.cs" />
+    <Compile Include="TwoArgument\AmountSquareTests.cs" />
     <Compile Include="TwoArgument\AmountTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="OneArgument\CosTest.cs" />
