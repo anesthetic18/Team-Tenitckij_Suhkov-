@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using NUnit.Framework;
-
+using WindowsFormsApplication1.TwoArgument;
 namespace WindowsFormsApplication1.Tests
 {
     [TestFixture]
@@ -13,8 +13,9 @@ namespace WindowsFormsApplication1.Tests
         [Test]
         public void AmountTest()
         {
-            // подготовительные действия
-            Assert.AreEqual(предполагаемыйРезультат, фактическийРезультат);
+            ICalculateTwoArguments calculator = CalculeteTwoFactory.CreateCalculator("buttonAmount");
+            double result = calculator.Calculate(5, 5);
+            Assert.AreEqual(10, result);
         }
     }
 }

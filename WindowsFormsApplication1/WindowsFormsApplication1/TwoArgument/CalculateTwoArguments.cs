@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApplication1.TwoArgument
 {
-    interface ICalculateTwoArguments
+    public interface ICalculateTwoArguments
     {
         double Calculate(double firstArgument, double secondArgument);
 
