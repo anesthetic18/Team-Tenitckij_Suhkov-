@@ -59,6 +59,7 @@
     <Compile Include="TwoArgument\AmountTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="OneArgument\CosTest.cs" />
+    <Compile Include="TwoArgument\DifCubeTests.cs" />
     <Compile Include="TwoArgument\DifDivisionTests.cs" />
     <Compile Include="TwoArgument\DifferenceTest.cs" />
     <Compile Include="TwoArgument\DivisionTest.cs" />
