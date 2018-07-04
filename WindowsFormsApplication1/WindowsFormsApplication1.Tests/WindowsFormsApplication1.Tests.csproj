@@ -48,8 +48,10 @@
   <ItemGroup>
     <Compile Include="OneArgument\ArccosTests.cs" />
     <Compile Include="OneArgument\ArcsinTests.cs" />
+    <Compile Include="OneArgument\AtanTests.cs" />
     <Compile Include="OneArgument\CtanTest.cs" />
     <Compile Include="OneArgument\CubeTests.cs" />
+    <Compile Include="OneArgument\FractionTests.cs" />
     <Compile Include="OneArgument\logTests.cs" />
     <Compile Include="OneArgument\TanTests.cs" />
     <Compile Include="OneArgument\TenExpTests.cs" />
