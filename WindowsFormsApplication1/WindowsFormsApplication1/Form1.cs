@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
+using WindowsFormsApplication1.OneArgument;
+using WindowsFormsApplication1.TwoArgument;
 
 namespace WindowsFormsApplication1
 {

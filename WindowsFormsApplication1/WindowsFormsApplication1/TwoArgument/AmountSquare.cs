@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApplication1
+﻿namespace WindowsFormsApplication1.TwoArgument
 {
     public class AmountSquare : ICalculateTwoArguments
     {

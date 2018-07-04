@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WindowsFormsApplication1
+namespace WindowsFormsApplication1.OneArgument
 {
     public class Cos : ICalculateOneArgument
     {
