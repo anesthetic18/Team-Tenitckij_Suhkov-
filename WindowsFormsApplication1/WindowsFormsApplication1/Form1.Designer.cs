@@ -46,7 +46,7 @@
             this.XPowerY = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.Ctan = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
+            this.Arcsin = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
@@ -240,15 +240,15 @@
             this.Ctan.UseVisualStyleBackColor = true;
             this.Ctan.Click += new System.EventHandler(this.ClickUnary);
             // 
-            // button10
+            // Arcsin
             // 
-            this.button10.Location = new System.Drawing.Point(614, 146);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(98, 37);
-            this.button10.TabIndex = 18;
-            this.button10.Text = "button10";
-            this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.ClickUnary);
+            this.Arcsin.Location = new System.Drawing.Point(614, 146);
+            this.Arcsin.Name = "Arcsin";
+            this.Arcsin.Size = new System.Drawing.Size(98, 37);
+            this.Arcsin.TabIndex = 18;
+            this.Arcsin.Text = "Arcsin";
+            this.Arcsin.UseVisualStyleBackColor = true;
+            this.Arcsin.Click += new System.EventHandler(this.ClickUnary);
             // 
             // button11
             // 
@@ -376,7 +376,7 @@
             this.Controls.Add(this.button13);
             this.Controls.Add(this.button12);
             this.Controls.Add(this.button11);
-            this.Controls.Add(this.button10);
+            this.Controls.Add(this.Arcsin);
             this.Controls.Add(this.Ctan);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.XPowerY);
@@ -423,7 +423,7 @@
         private System.Windows.Forms.Button XPowerY;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button Ctan;
-        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button Arcsin;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Button button13;

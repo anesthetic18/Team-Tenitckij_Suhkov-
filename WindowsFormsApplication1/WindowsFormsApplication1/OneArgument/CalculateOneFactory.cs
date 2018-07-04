@@ -26,6 +26,8 @@ namespace WindowsFormsApplication1
                     return new Fraction();
                 case "Ctan":
                     return new Ctan();
+                case "Arcsin":
+                    return new Arcsin();
                 default:
                     throw new Exception("Неизвестная операция");
             }
