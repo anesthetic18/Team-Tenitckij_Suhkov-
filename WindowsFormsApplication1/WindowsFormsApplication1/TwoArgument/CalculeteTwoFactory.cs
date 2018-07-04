@@ -22,6 +22,8 @@ namespace WindowsFormsApplication1
                     return new DoubleDifference();
                 case "doubleMultiply":
                     return new DoubleMultiply();
+                case "doubleDivision":
+                    return new DoubleDivision();
                 default:
                     throw new Exception("Неизвестная операция");
             }

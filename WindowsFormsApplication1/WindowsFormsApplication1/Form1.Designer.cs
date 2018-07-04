@@ -55,7 +55,7 @@
             this.button16 = new System.Windows.Forms.Button();
             this.doubleDifference = new System.Windows.Forms.Button();
             this.doubleMultiply = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
+            this.doubleDivision = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -327,14 +327,15 @@
             this.doubleMultiply.UseVisualStyleBackColor = true;
             this.doubleMultiply.Click += new System.EventHandler(this.Click);
             // 
-            // button19
+            // doubleDivision
             // 
-            this.button19.Location = new System.Drawing.Point(862, 189);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(98, 37);
-            this.button19.TabIndex = 27;
-            this.button19.Text = "button19";
-            this.button19.UseVisualStyleBackColor = true;
+            this.doubleDivision.Location = new System.Drawing.Point(862, 189);
+            this.doubleDivision.Name = "doubleDivision";
+            this.doubleDivision.Size = new System.Drawing.Size(98, 37);
+            this.doubleDivision.TabIndex = 27;
+            this.doubleDivision.Text = "2(x/y)";
+            this.doubleDivision.UseVisualStyleBackColor = true;
+            this.doubleDivision.Click += new System.EventHandler(this.Click);
             // 
             // button20
             // 
@@ -372,7 +373,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button20);
-            this.Controls.Add(this.button19);
+            this.Controls.Add(this.doubleDivision);
             this.Controls.Add(this.doubleMultiply);
             this.Controls.Add(this.doubleDifference);
             this.Controls.Add(this.button16);
@@ -437,7 +438,7 @@
         private System.Windows.Forms.Button button16;
         private System.Windows.Forms.Button doubleDifference;
         private System.Windows.Forms.Button doubleMultiply;
-        private System.Windows.Forms.Button button19;
+        private System.Windows.Forms.Button doubleDivision;
         private System.Windows.Forms.Button button20;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
