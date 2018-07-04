@@ -63,6 +63,7 @@
     <Compile Include="TwoArgument\DifDivisionTests.cs" />
     <Compile Include="TwoArgument\DifferenceTest.cs" />
     <Compile Include="TwoArgument\DivisionTest.cs" />
+    <Compile Include="TwoArgument\DoublAmountTests.cs" />
     <Compile Include="TwoArgument\DoubleDifSquare.cs" />
     <Compile Include="TwoArgument\MultiplyTest.cs" />
     <Compile Include="TwoArgument\SquareOfAmountTests.cs" />
