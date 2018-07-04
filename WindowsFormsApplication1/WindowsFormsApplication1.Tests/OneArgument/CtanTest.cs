@@ -13,7 +13,7 @@ namespace WindowsFormsApplication1.Tests.OneArgument
         {
             ICalculateOneArgument calculator = CalculateOneFactory.CreateCalculator("Ctan");
             double result = calculator.Calculate(value);
-            Assert.AreEqual(expected, result);
+            Assert.AreEqual(expected, result,0.01);
         }
     }
 }
