@@ -24,6 +24,8 @@ namespace WindowsFormsApplication1
                     return new Atan();
                 case "Fraction":
                     return new Fraction();
+                case "Ctan":
+                    return new Ctan();
                 default:
                     throw new Exception("Неизвестная операция");
             }
