@@ -2,6 +2,9 @@
 
 namespace WindowsFormsApplication1.OneArgument
 {
+    /// <summary>
+    /// фабрика для функций одной переменной
+    /// </summary>
     public class CalculateOneFactory
     {
         public static ICalculateOneArgument CreateCalculator(string calculatorName)
