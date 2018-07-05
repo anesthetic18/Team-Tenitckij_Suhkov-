@@ -7,6 +7,15 @@ namespace WindowsFormsApplication1.OneArgument
     /// </summary>
     public class CalculateOneFactory
     {
+        /// <summary>
+        /// Fabrica for function of one variables 
+        /// </summary>
+        /// <param name="calculatorName">
+        /// the definition of the function on click
+        /// </param>
+        /// <returns>
+        /// Return incstanse of class
+        /// </returns>
         public static ICalculateOneArgument CreateCalculator(string calculatorName)
         {
             switch (calculatorName)
