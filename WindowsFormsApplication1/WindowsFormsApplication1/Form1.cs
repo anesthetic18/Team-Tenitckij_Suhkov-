@@ -24,7 +24,7 @@ namespace WindowsFormsApplication1
                 double result = calculator.Calculate(firstValue, secondValue);
                 textBox3.Text = result.ToString();
             }
-            catch (Exception exc)
+            catch
             {
                 textBox3.Text = "mistake";
             }
